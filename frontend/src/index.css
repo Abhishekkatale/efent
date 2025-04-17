@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000; /* Black background color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #333333; /* Dark gray color of the draggable part of the scrollbar */
+    border-radius: 6px; /* Rounded corners of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; /* Slightly lighter color of the scrollbar thumb on hover */
+  }
+  
+  /* For Firefox */
+  .scrollbar {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #333333 #000000; /* Scrollbar thumb and track color */
+  }
+  
